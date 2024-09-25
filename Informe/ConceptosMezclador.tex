@@ -1,0 +1,14 @@
+\subsubsection{Conceptos}\label{sec:0z1z0Conceptos}
+\paragraph{Mezclador}
+El mezclador produce la combinación de dos frecuencias de entrada. Para el caso de radiofrecuencia, se usa para obtener la señal intermedia producto de una frecuencia de radiofrecuencia y un oscilador local. 
+Las frecuencias principales en potencia se encuentran en la suma y resta de las frecuencias de entrada. \cite{notasCurso}
+
+Existen diferentes configuraciones para los mezcladores. Sin embargo, los mezcladores más sencillos tienen a menudo asociado el fenómeno de feedthrough. Si se da el caso de que la frecuencia portadora dada por el oscilador local y los productos de mezclado deseados se encuentran a gran distancia, puede no ser un problema para la aplicación, dado que un filtro a la salida es suficiente dada la distancia en frecuencia y dado también que la señal que pasa al puerto de radiofrecuencia desde el oscilador local(en el caso de recepción) no debería ser emitido por la antena al tener esta una gran diferencia con la frecuencia de resonancia de la antena. 
+\paragraph{Mezclador balanceado}
+El mezclador balanceado reduce el paso una de las señales de entrada a la salida del mixer, al implementar entradas balanceadas de una de las señales de entrada cuyo valor común se elimina directamente. 
+
+\paragraph{Mezclador doblemente balanceado}
+El mezclador doblemente balanceado implementa el mismo principio que el mezclador balanceado pero balancea tanto la entrada del oscilador local como la entrada de RF. Esto elimina estos dos componentes a la salida y además evita que haya un retorno hacia las mismas entradas. 
+
+\paragraph{Mezclador basado en transistores}
+Los dos tipos de mezcladores balanceados anteriores pueden ser construidos con transistores o diodos. 
